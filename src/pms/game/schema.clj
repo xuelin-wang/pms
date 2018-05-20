@@ -6,7 +6,10 @@
     [com.walmartlabs.lacinia.schema :as schema]
     [com.walmartlabs.lacinia.resolve :refer [resolve-as]]
     [pms.game.db :as db]
-    [clojure.edn :as edn]))
+    [clojure.walk :as walk]
+    [clojure.edn :as edn])
+  (:import (clojure.lang IPersistentMap))
+  )
 
 (defn game-by-id
   [db]
@@ -94,3 +97,22 @@
       edn/read-string
       (util/attach-resolvers (resolver-map db))
       schema/compile))
+
+
+(defn simplify
+  "Converts all ordered maps nested within the map into standard hash maps, and
+   sequences into vectors, which makes for easier constants in the tests, and eliminates ordering problems."
+  [m]
+  (walk/postwalk
+    (fn [node]
+      (cond
+        (instance? IPersistentMap node)
+        (into {} node)
+
+        (seq? node)
+        (vec node)
+
+        :else
+        node))
+    m))
+

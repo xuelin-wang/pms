@@ -7,27 +7,8 @@
     [io.pedestal.http :as http]
     [clojure.java.browse :refer [browse-url]]
     [integrant.core :as ig]
-    [clojure.walk :as walk])
-  (:import (clojure.lang IPersistentMap)))
-
-;(def schema (sc/load-schema))
-
-(defn simplify
-  "Converts all ordered maps nested within the map into standard hash maps, and
-   sequences into vectors, which makes for easier constants in the tests, and eliminates ordering problems."
-  [m]
-  (walk/postwalk
-    (fn [node]
-      (cond
-        (instance? IPersistentMap node)
-        (into {} node)
-
-        (seq? node)
-        (vec node)
-
-        :else
-        node))
-    m))
+    )
+  )
 
 (comment
   (defonce server nil)
@@ -100,7 +81,7 @@
   [query-string]
   (let [schema (:game/cgg-schema system)]
     (-> (lacinia/execute schema query-string nil nil)
-        simplify)
+        sc/simplify)
     )
   )
 
