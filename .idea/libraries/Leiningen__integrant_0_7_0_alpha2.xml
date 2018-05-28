@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Leiningen: integrant:0.7.0-alpha2">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/integrant/integrant/0.7.0-alpha2/integrant-0.7.0-alpha2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,10 +1,10 @@
-(ns pms.core
+(ns xl.pms.core
   (:require
-    [pms.server]
+    [xl.pms.server]
     [integrant.core :as ig]
     )
   (:gen-class)
   )
 
 (defn -main [& args]
-  (ig/init pms.server/sysconf))
+  (ig/init (xl.pms.server/get-conf "prod")))

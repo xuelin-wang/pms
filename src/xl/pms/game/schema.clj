@@ -1,4 +1,4 @@
-(ns pms.game.schema
+(ns xl.pms.game.schema
   "Contains custom resolvers and a function to provide the full schema."
   (:require
     [clojure.java.io :as io]
