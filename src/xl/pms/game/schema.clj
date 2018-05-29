@@ -5,7 +5,7 @@
     [com.walmartlabs.lacinia.util :as util]
     [com.walmartlabs.lacinia.schema :as schema]
     [com.walmartlabs.lacinia.resolve :refer [resolve-as]]
-    [pms.game.db :as db]
+    [xl.pms.game.db :as db]
     [clojure.walk :as walk]
     [clojure.edn :as edn])
   (:import (clojure.lang IPersistentMap))
