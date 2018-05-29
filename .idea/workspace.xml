@@ -2,28 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1b4d549b-37df-4b7c-ac83-9fb4394ec2a6" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/redis/conf/dump.rdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redis/conf/redis-sentinel.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redis/conf/redis.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redis/conf/redis.conf.old" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redis/conf_test/dump.rdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redis/conf_test/redis-sentinel.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redis/conf_test/redis.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redis/conf_test/redis.conf.old" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/conf/prod.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/conf/test.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/xl/db/redis.clj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/xl/pms/service/examples.clj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/xl/pms/service/redis.clj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/xl/db/redis_test.clj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dev-resources/user.clj" beforeDir="false" afterPath="$PROJECT_DIR$/dev-resources/user.clj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pms.iml" beforeDir="false" afterPath="$PROJECT_DIR$/pms.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project.clj" beforeDir="false" afterPath="$PROJECT_DIR$/project.clj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pms/core.clj" beforeDir="false" afterPath="$PROJECT_DIR$/src/xl/pms/core.clj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pms/game/db.clj" beforeDir="false" afterPath="$PROJECT_DIR$/src/xl/pms/game/db.clj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pms/game/schema.clj" beforeDir="false" afterPath="$PROJECT_DIR$/src/xl/pms/game/schema.clj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pms/server.clj" beforeDir="false" afterPath="$PROJECT_DIR$/src/xl/pms/server.clj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/pms/core_test.clj" beforeDir="false" afterPath="$PROJECT_DIR$/test/xl/pms/core_test.clj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/xl/pms/service/redis.clj" beforeDir="false" afterPath="$PROJECT_DIR$/src/xl/pms/service/redis.clj" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -100,8 +79,8 @@
       <file leaf-file-name="redis.clj" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/xl/pms/service/redis.clj">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+            <state relative-caret-position="644">
+              <caret line="87" column="44" selection-start-line="87" selection-start-column="44" selection-end-line="87" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -205,8 +184,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="152" />
-    <option name="y" value="30" />
+    <option name="x" value="12" />
+    <option name="y" value="34" />
     <option name="width" value="1451" />
     <option name="height" value="848" />
   </component>
@@ -341,7 +320,7 @@
       <recent name="$PROJECT_DIR$/resources" />
     </key>
   </component>
-  <component name="ReplState" timestamp="1527549024122">{:repl-history {:ide [], :local [], :remote []}}</component>
+  <component name="ReplState" timestamp="1527572325766">{:repl-history {:ide [], :local [], :remote []}}</component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -436,15 +415,15 @@
       <updated>1526765184083</updated>
       <workItem from="1526765187574" duration="10432000" />
       <workItem from="1527037112187" duration="569000" />
-      <workItem from="1527299328586" duration="21414000" />
+      <workItem from="1527299328586" duration="24164000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32415000" />
+    <option name="totallyTimeSpent" value="35165000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="152" y="30" width="1451" height="848" extended-state="0" />
+    <frame x="12" y="34" width="1451" height="848" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -639,13 +618,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="44" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/conf/prod.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -657,13 +629,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="14" column="41" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/xl/db/redis_test.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
         </state>
       </provider>
     </entry>
@@ -695,10 +660,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/project.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="44" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/xl/db/redis_test.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/xl/pms/service/redis.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+        <state relative-caret-position="644">
+          <caret line="87" column="44" selection-start-line="87" selection-start-column="44" selection-end-line="87" selection-end-column="44" />
         </state>
       </provider>
     </entry>
